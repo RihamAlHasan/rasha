@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 99999;
 }
 
+.heros i {
+  /* display: inline; */
+}
+
 .back-to-top i {
   font-size: 24px;
   position: absolute;
@@ -361,7 +365,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero p {
   font-size: 18px;
   display: inline-block;
-  line-height: 7px;
+  /* line-height: 7px; */
+  line-height: 25px;
+  /* margin-bottom: 10px; */
 }
 
 #hero h2 {
