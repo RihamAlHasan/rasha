@@ -2,8 +2,9 @@ body {
     font-family: 'Cairo', sans-serif;
     /* font-family: "Open Sans", sans-serif; */
     color: #212529;
+    /* background-image: url(/assets/img/pattern-randomized.svg); */
   }
-  
+
   a {
     color: #007bff;
   }
@@ -332,7 +333,7 @@ body {
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
   }
-  
+
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
@@ -525,11 +526,13 @@ body {
     content: '';
     position: absolute;
     display: block;
-    width: 60px;
+    /* width: 60px; */
+    width: 300px;
     height: 2px;
-    background: #eb5d1e;
+    /* background: #eb5d1e; */
+    background: #3bb54a;
     bottom: 0;
-    left: calc(50% - 30px);
+    left: calc(50% - 150px);
   }
   
   /*--------------------------------------------------------------
@@ -601,6 +604,9 @@ body {
     display: inline-block;
   }
   
+  .reading_service h4 {
+    margin-top: 30px;
+  }
   .reading_service .icon-box {
     padding: 30px;
     position: relative;
@@ -625,7 +631,9 @@ body {
     font-size: 48px;
     line-height: 1;
     margin-bottom: 15px;
-    color: #3bb54a;
+    /* margin-top: 95px; */
+    /* color: #3bb54a; */
+    color: #855fa7;
   }
   
   .reading_service .title {
@@ -1152,7 +1160,7 @@ body {
     padding: 0 0 30px 0;
     color: #212529;
     font-size: 14px;
-    background: #fef8f5;
+    background: #F7FFF8;
   }
   
   #footer .footer-newsletter {
