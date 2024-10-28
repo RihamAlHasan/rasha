@@ -1,3 +1,4 @@
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -468,7 +469,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 .img-thumbnail {
